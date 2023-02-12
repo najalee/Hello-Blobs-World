@@ -1,5 +1,5 @@
 
-<img src="https://github.com/najalee/Hello-Blobs-World/blob/main/game/gui/main_menu.png?raw=true" width="500">
+<img src="https://github.com/najalee/Hello-Blobs-World/blob/main/game/gui/main_menu.png?raw=true" width="1000">
 
 ## Inspiration
 
