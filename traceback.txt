@@ -1,0 +1,35 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 24, in script
+    image rsCrash = im.Scale("/rocket ship/rocket ship crash.png")
+  File "game/script.rpy", line 24, in script
+    image rsCrash = im.Scale("/rocket ship/rocket ship crash.png")
+  File "game/script.rpy", line 24, in <module>
+    image rsCrash = im.Scale("/rocket ship/rocket ship crash.png")
+TypeError: __init__() missing 2 required positional arguments: 'width' and 'height'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/Volumes/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "/Volumes/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/main.py", line 558, in main
+    renpy.game.context().run(node)
+  File "game/script.rpy", line 24, in script
+    image rsCrash = im.Scale("/rocket ship/rocket ship crash.png")
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "game/script.rpy", line 24, in script
+    image rsCrash = im.Scale("/rocket ship/rocket ship crash.png")
+  File "/Volumes/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 1230, in execute
+    img = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Volumes/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 24, in <module>
+    image rsCrash = im.Scale("/rocket ship/rocket ship crash.png")
+TypeError: __init__() missing 2 required positional arguments: 'width' and 'height'
+
+macOS-10.16-x86_64-i386-64bit x86_64
+Ren'Py 8.0.3.22090809
+WEHack Project 1.0
+Sun Feb 12 10:15:44 2023

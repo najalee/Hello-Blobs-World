@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 24: invalid syntax
+    im.Scale("/rocket ship/rocket ship crash.png", ,)
+                                                    ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Sun Feb 12 10:18:20 2023
