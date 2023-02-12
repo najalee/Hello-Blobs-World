@@ -1,5 +1,5 @@
 
-
+<img src="https://github.com/najalee/ACM-Research-coding-challenge-23S/blob/main/AM%20vs%20Rad%20Dwarf.png?raw=true" width="500">
 
 ## Inspiration
 
