@@ -34,3 +34,7 @@ Allow the user to refer to Blob’s manual
 - Implement a progress bar
 - Allow the user to customize a blob with items they find in the game
 - Expand Blob’s world by adding more levels and planets
+
+
+#### Devpost Link:
+https://devpost.com/software/print-hello-blob-s-world
